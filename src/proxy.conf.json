@@ -1,0 +1,9 @@
+{
+  "/api/*": {
+    "target": "https://status.sensecapmx.cloud",
+    "secure": false,
+    "changeOrigin": true,
+    "logLevel": "debug",
+    "pathRewrite": {"^/api" : "https://status.sensecapmx.cloud/api"}
+  }
+}
