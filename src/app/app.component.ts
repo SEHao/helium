@@ -1,6 +1,6 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
-import { pipe, Subject, takeUntil } from 'rxjs';
-import { SenseCapService } from './core/service/sense-cap.service';
+import { Subject, takeUntil } from 'rxjs';
+import { SenseCapService } from './core/services/sense-cap.service';
 
 @Component({
   selector: 'app-root',
