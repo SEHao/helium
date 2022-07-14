@@ -10,7 +10,15 @@ import { CoreModule } from './core/core.module';
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, AppRoutingModule, CoreModule, BrowserAnimationsModule, NbThemeModule.forRoot({ name: 'default' }), NbLayoutModule, NbEvaIconsModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    CoreModule,
+    BrowserAnimationsModule,
+    NbThemeModule.forRoot({ name: 'default' }),
+    NbLayoutModule,
+    NbEvaIconsModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })
