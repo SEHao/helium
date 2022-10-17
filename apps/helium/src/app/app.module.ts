@@ -1,7 +1,6 @@
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BrowserModule } from '@angular/platform-browser';
-import { NbEvaIconsModule } from '@nebular/eva-icons';
-import { NbThemeModule, NbLayoutModule } from '@nebular/theme';
+import { MenubarModule } from 'primeng/menubar';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
@@ -15,9 +14,7 @@ import { CoreModule } from './core/core.module';
     AppRoutingModule,
     CoreModule,
     BrowserAnimationsModule,
-    NbThemeModule.forRoot({ name: 'default' }),
-    NbLayoutModule,
-    NbEvaIconsModule,
+    MenubarModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
